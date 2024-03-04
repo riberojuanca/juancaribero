@@ -8,7 +8,7 @@ function page() {
     <main>
       <header>
         <h1 className="title">Juanca Ribero</h1>
-        <div>
+        <div className="icons">
           <a href="">
             <CiSun />
           </a>
@@ -27,35 +27,9 @@ function page() {
                 <p>Parrafo1</p>
                 <div className="skills">
                   <div className="skill">
-                    <p>sadasdk</p>
+                    <p>JavaScript</p>
                     <p>+7</p>
-                    <p>asdadadasd</p>
-                  </div>
-                  <div className="skill">
-                    <p>sadasdk</p>
-                    <p>+7</p>
-                    <p>asdadadasd</p>
-                  </div>
-                  <div className="skill">
-                    <p>sadasdk</p>
-                    <p>+7</p>
-                    <p>asdadadasd</p>
-                  </div>
-                </div>
-                <p>parrafo2</p>
-              </div>
-            </section>
-          </div>
-          <div className="sub-container">
-            <section className="sub-container-section">
-              <h2 className="title-section">Titulo1</h2>
-              <div className="body-section">
-                <p>Parrafo1</p>
-                <div className="skills">
-                  <div className="skill">
-                    <p>sadasdk</p>
-                    <p>+7</p>
-                    <p>asdadadasd</p>
+                    <p>Years of experience</p>
                   </div>
                   <div className="skill">
                     <p>sadasdk</p>

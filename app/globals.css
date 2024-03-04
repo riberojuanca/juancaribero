@@ -1,5 +1,8 @@
 :root {
-  --principal-color: #fff;
+  --shadow-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.045),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.045), 0px 1px 5px 0px rgba(0, 0, 0, 0.051);
+
+  --principal-color: #ffffffa3;
   --principal-bg: #1e2026;
 }
 
@@ -30,15 +33,28 @@ main {
 }
 
 header {
-  align-items: center;
-  background: rgba(249, 175, 37, 0.594);
+  background: var(--principal-color);
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 6rem;
   padding: 1rem;
   position: sticky;
   top: 0;
   z-index: 50;
+  font-size: 1.5rem;
+}
+
+.icons {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  height: 1.5rem;
 }
 
 article {
@@ -64,9 +80,9 @@ article .container {
 }
 
 .title-section {
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.75rem;
+  color: rgba(156, 167, 236, 0.812);
 }
 
 .body-section {
@@ -87,25 +103,27 @@ article .container {
 
 .skills .skill {
   min-width: 6rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
 
-  &p:nth-child(1) {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    margin: 0;
-  }
+p:nth-child(1) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0;
+}
 
-  &p:nth-child(2) {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 700;
-    margin: 0;
-  }
+p:nth-child(2) {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 900;
+  margin: 0;
+}
 
-  &p:nth-child(3) {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    margin: 0;
-  }
+p:nth-child(3) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0;
 }
 
 a {
@@ -114,14 +132,15 @@ a {
 }
 
 .title {
-  font-weight: 900;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .footer {
   align-items: center;
-  border-color: red;
-  border-top-width: 1px;
   display: flex;
+  justify-content: space-between;
+  border-top: 1px solid hsla(0, 0%, 45%, 0.2);
   margin-top: 6rem;
   padding: 1rem;
 }
