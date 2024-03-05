@@ -28,7 +28,7 @@ body {
 }
 
 main {
-  max-width: 50rem;
+  max-width: 46rem;
   margin: auto;
 }
 
@@ -80,7 +80,7 @@ article .container {
 }
 
 .title-section {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.75rem;
   color: rgba(156, 167, 236, 0.812);
 }
@@ -108,7 +108,7 @@ article .container {
 }
 
 p:nth-child(1) {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   line-height: 1.25rem;
   margin: 0;
 }
@@ -121,7 +121,7 @@ p:nth-child(2) {
 }
 
 p:nth-child(3) {
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   line-height: 1.25rem;
   margin: 0;
 }
