@@ -2,8 +2,9 @@
   --shadow-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.045),
     0px 2px 2px 0px rgba(0, 0, 0, 0.045), 0px 1px 5px 0px rgba(0, 0, 0, 0.051);
 
-  --principal-color: #ffffffa3;
-  --principal-bg: #1e2026;
+  --principal-color: #ececec7d;
+  --principal-bg: #ffffff;
+  --third-color: rgba(255, 81, 0, 0.796);
 }
 
 *,
@@ -19,16 +20,17 @@ body {
   display: block;
   max-width: 100vw;
   /* overflow-x: hidden; */
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
+  background: var(--principal-bg);
   margin: 0;
   line-height: inherit;
 }
 
 main {
-  max-width: 46rem;
+  max-width: 50rem;
   margin: auto;
 }
 
@@ -38,12 +40,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 5rem;
   margin-bottom: 6rem;
   padding: 1rem;
   position: sticky;
   top: 0;
   z-index: 50;
   font-size: 1.5rem;
+  border-radius: 3px;
 }
 
 .icons {
@@ -80,9 +84,9 @@ article .container {
 }
 
 .title-section {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.75rem;
-  color: rgba(156, 167, 236, 0.812);
+  color: var(--third-color);
 }
 
 .body-section {
@@ -97,8 +101,8 @@ article .container {
 
 .body-section .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
 }
 
 .skills .skill {
@@ -133,7 +137,7 @@ a {
 
 .title {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .footer {

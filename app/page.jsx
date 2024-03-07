@@ -22,7 +22,7 @@ function page() {
         <div className="container">
           <div className="sub-container">
             <section className="sub-container-section">
-              <h2 className="title-section">Hello</h2>
+              <h2 className="title-section">Welcome 👋🏼</h2>
               <div className="body-section">
                 <p>
                   I am Juan C. Ribero a frontend developer from Salto, Uruguay
@@ -31,13 +31,13 @@ function page() {
                 <div className="skills">
                   <div className="skill">
                     <p>JavaScript</p>
-                    <p>+7</p>
-                    <p>Years of experience</p>
+                    <p>+1</p>
+                    <p>Years of study</p>
                   </div>
                   <div className="skill">
-                    <p>sadasdk</p>
-                    <p>+7</p>
-                    <p>asdadadasd</p>
+                    <p>React</p>
+                    <p>+1</p>
+                    <p>Years of study</p>
                   </div>
                   <div className="skill">
                     <p>sadasdk</p>

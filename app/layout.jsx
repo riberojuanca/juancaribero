@@ -1,8 +1,8 @@
-import { Roboto_Condensed } from "next/font/google";
+import { Inter } from "next/font/google";
 import { Yantramanav } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto_Condensed({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={yantramanav.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
