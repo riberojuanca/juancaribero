@@ -14,7 +14,7 @@ const yantramanav = Yantramanav({
 
 export const metadata = {
   title: "Luzbelito",
-  description: "Uruguayan development",
+  description: "Uruguayan developer",
 };
 
 export default function RootLayout({ children }) {
