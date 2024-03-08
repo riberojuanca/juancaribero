@@ -9,9 +9,6 @@ const inter = Inter({
 export const metadata = {
   title: "Luzbelito",
   description: "Uruguayan developers",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({ children }) {
