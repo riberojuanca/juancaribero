@@ -2,4 +2,4 @@
 
 ## My personal project
 
-[VER SITIO](https://luzbelito.vercel.app)
+[Luzbelito](https://luzbelito.vercel.app)
