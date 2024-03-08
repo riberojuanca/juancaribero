@@ -13,7 +13,7 @@ const yantramanav = Yantramanav({
 });
 
 export const metadata = {
-  title: "Juanca Ribero",
+  title: "Luzbelito",
   description: "Uruguayan development",
 };
 
