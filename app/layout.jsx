@@ -8,7 +8,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Luzbelito",
-  description: "Uruguayan developer",
+  description: "Uruguayan developers",
 };
 
 export default function RootLayout({ children }) {
