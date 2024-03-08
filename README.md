@@ -1,5 +1,5 @@
-# This is my personal web
+# This is Luzbelito
 
-## Juanca Ribero
+## My personal project
 
 [VER SITIO](https://luzbelito.vercel.app)
