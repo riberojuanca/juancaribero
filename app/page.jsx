@@ -2,14 +2,13 @@ import React from "react";
 import { CiSun } from "react-icons/ci";
 import { CiDark } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
-import Comment from "@/components/Facebook";
 
 function page() {
   return (
     <>
       <main>
         <header>
-          <h1 className="title">Juanca Ribero</h1>
+          <h1 className="title">🕯️Luzbelito</h1>
           <div className="icons">
             <a href="">
               <CiSun />
@@ -26,7 +25,6 @@ function page() {
               <section className="sub-container-section">
                 <h2 className="title-section">Welcome 👋🏼</h2>
                 <div className="body-section">
-                  <Comment />
                   <p>
                     I am Juan C. Ribero a frontend developer from Salto, Uruguay
                     🇺🇾.
