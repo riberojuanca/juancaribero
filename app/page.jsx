@@ -29,37 +29,49 @@ function page() {
                     I am Juan C. Ribero a frontend developer from Salto, Uruguay
                     🇺🇾.
                   </p>
+                  <p>
+                    I started this journey at the beginning of the year 2023.
+                    <br />
+                    Since then I have focused on creating web apps without any
+                    type of discrimination.
+                  </p>
                   <div className="skills">
+                    <div className="skill">
+                      <p>Html & Css</p>
+                      <p>+2</p>
+                      <p>Years of experience</p>
+                    </div>
                     <div className="skill">
                       <p>JavaScript</p>
                       <p>+1</p>
-                      <p>Years of study</p>
+                      <p>Year of experience</p>
                     </div>
                     <div className="skill">
                       <p>React</p>
                       <p>+1</p>
-                      <p>Years of study</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
+                      <p>Year of experience</p>
                     </div>
                   </div>
-                  <p>parrafo2</p>
+                  <p>
+                    Currently, while studying them, I use NextJS, TypeScript and
+                    TailwindCSS.
+                  </p>
                 </div>
               </section>
             </div>
             <div className="sub-container">
               <section className="sub-container-section">
-                <h2 className="title-section">Titulo1</h2>
+                <h2 className="title-section">Projects</h2>
                 <div className="body-section">
-                  <p>Parrafo1</p>
+                  <p>
+                    Thanks to the trust of some people, I am still active as a
+                    freelancer.
+                  </p>
                   <div className="skills">
                     <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
+                      <p>Complete web</p>
+                      <p>+3</p>
+                      <p>Last year</p>
                     </div>
                     <div className="skill">
                       <p>sadasdk</p>
