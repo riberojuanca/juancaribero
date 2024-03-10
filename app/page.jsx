@@ -1,20 +1,31 @@
+import Link from "next/link";
+
 import React from "react";
-import { CiSun } from "react-icons/ci";
-import { CiDark } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { BiLogoGithub } from "react-icons/bi";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { BiLogoLinkedinSquare } from "react-icons/bi";
 
 function page() {
   return (
     <>
       <main>
         <header>
-          <h1 className="title">🕯️Luzbelito</h1>
+          <Link href={"/"}>
+            <h1 className="title">🕯️Luzbelito</h1>
+          </Link>
           <div className="icons">
             <a href="">
-              <CiSun />
+              <BiMessageSquareDetail />
             </a>
             <a href="">
-              <CiMail />
+              <BiLogoGithub />
+            </a>
+            <a href="">
+              <MdOutlineAlternateEmail />
+            </a>
+            <a href="">
+              <BiLogoLinkedinSquare />
             </a>
             <a href=""></a>
           </div>

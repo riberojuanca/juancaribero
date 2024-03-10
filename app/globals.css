@@ -34,6 +34,10 @@ body {
   background: var(--third-color);
 }
 
+a:hover {
+  transform: scale(1.1);
+}
+
 main {
   max-width: 50rem;
   margin: auto;
@@ -56,10 +60,6 @@ header {
 }
 
 .icons {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
   display: flex;
   flex-direction: row;
   gap: 1rem;
