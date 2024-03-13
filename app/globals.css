@@ -146,3 +146,7 @@ a {
   margin-top: 6rem;
   padding: 1rem;
 }
+
+.donationsBG {
+  background-color: red;
+}

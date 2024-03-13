@@ -1,10 +1,13 @@
 import Link from "next/link";
 
+import Image from "next/image";
+
 import React from "react";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
+import { PiPaypalLogoLight } from "react-icons/pi";
 
 function page() {
   return (
@@ -27,7 +30,9 @@ function page() {
             <a href="">
               <BiLogoLinkedinSquare />
             </a>
-            <a href=""></a>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGYgit">
+              <PiPaypalLogoLight />
+            </a>
           </div>
         </header>
         <article>
