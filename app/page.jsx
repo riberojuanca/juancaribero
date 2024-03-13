@@ -30,7 +30,7 @@ function page() {
             <a href="">
               <BiLogoLinkedinSquare />
             </a>
-            <a href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGYgit">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGY">
               <PiPaypalLogoLight />
             </a>
           </div>
