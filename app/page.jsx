@@ -39,7 +39,7 @@ function page() {
           <div className="container">
             <div className="sub-container">
               <section className="sub-container-section">
-                <h2 className="title-section">Welcome 👋🏼</h2>
+                <h2 className="title-section">Hi 👋🏼</h2>
                 <div className="body-section">
                   <p>
                     I am Juan C. Ribero a frontend developer from Salto, Uruguay
