@@ -18,6 +18,10 @@ function ProjectCard() {
     <article className={styles.cardContainer}>
       <div className={styles.texts}>
         <h3>QuitaParásitos.net</h3>
+        <p>
+          Created with Next JS and deployed on VPS. It has its own blog created
+          using MDX and an internal search engine in particular sections.
+        </p>
         <div className={styles.skills}>
           <FaHtml5 />
           <FaCss3Alt />
@@ -29,10 +33,6 @@ function ProjectCard() {
           <SiPm2 />
           <DiNginx />
         </div>
-        <p>
-          Created with Next JS and deployed on VPS. It has its own blog created
-          using MDX and an internal search engine in particular sections.
-        </p>
       </div>
     </article>
   );

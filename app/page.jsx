@@ -13,7 +13,6 @@ function page() {
   return (
     <>
       <main>
-
         <header>
           <Link href={"/"}>
             <h1 className="title">🕯️Luzbelito</h1>
@@ -85,76 +84,6 @@ function page() {
                     freelancer.
                   </p>
                   <ProjectCard />
-                  <div className="skills">
-                    <div className="skill">
-                      <p>Complete web</p>
-                      <p>+3</p>
-                      <p>Last year</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                  </div>
-                  <p>parrafo2</p>
-                </div>
-              </section>
-            </div>
-            <div className="sub-container">
-              <section className="sub-container-section">
-                <h2 className="title-section">Titulo1</h2>
-                <div className="body-section">
-                  <p>Parrafo1</p>
-                  <div className="skills">
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                  </div>
-                  <p>parrafo2</p>
-                </div>
-              </section>
-            </div>
-            <div className="sub-container">
-              <section className="sub-container-section">
-                <h2 className="title-section">Titulo1</h2>
-                <div className="body-section">
-                  <p>Parrafo1</p>
-                  <div className="skills">
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                    <div className="skill">
-                      <p>sadasdk</p>
-                      <p>+7</p>
-                      <p>asdadadasd</p>
-                    </div>
-                  </div>
-                  <p>parrafo2</p>
                 </div>
               </section>
             </div>
