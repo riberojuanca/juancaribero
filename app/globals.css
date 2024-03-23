@@ -4,8 +4,11 @@
 
   --principal-color: #0000004f;
   --principal-bg: #000000;
-  --third-color: rgba(255, 38, 0, 0.796);
+  --second-color: rgba(255, 38, 0, 0.796);
+  --third-color: rgba(0, 59, 59, 0.796);
   --fourth-color: rgba(255, 255, 255, 0.126);
+
+  --title-color: rgba(0, 193, 193, 0.587);
 }
 
 *,
@@ -92,7 +95,7 @@ article .container {
 .title-section {
   font-size: 1.4rem;
   line-height: 1.75rem;
-  color: var(--third-color);
+  color: var(--title-color);
 }
 
 .body-section {
