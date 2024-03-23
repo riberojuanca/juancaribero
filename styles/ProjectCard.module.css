@@ -1,0 +1,42 @@
+.cardContainer {
+  border-radius: 4px;
+  background: var(--fourth-color);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  width: 100%;
+  padding: 0.6rem;
+  margin-inline: auto auto;
+  gap: 0.6rem;
+}
+
+.image {
+  width: fit-content;
+  height: fit-content;
+}
+
+.image img {
+  filter: grayscale(100%);
+  border-radius: 4px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 0.6rem;
+}
+
+.texts h3 {
+  font-size: 1.4rem;
+}
+
+.skills {
+  background: var(--third-color);
+
+  display: flex;
+  font-size: 2rem;
+  gap: 0.2rem;
+  border-radius: 3px;
+}

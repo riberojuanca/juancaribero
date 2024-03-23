@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import Image from "next/image";
+import ProjectCard from "@/components/ProjectCard";
 
 import React from "react";
 import { BiMessageSquareDetail } from "react-icons/bi";
@@ -13,6 +13,7 @@ function page() {
   return (
     <>
       <main>
+
         <header>
           <Link href={"/"}>
             <h1 className="title">🕯️Luzbelito</h1>
@@ -83,6 +84,7 @@ function page() {
                     Thanks to the trust of some people, I am still active as a
                     freelancer.
                   </p>
+                  <ProjectCard />
                   <div className="skills">
                     <div className="skill">
                       <p>Complete web</p>
