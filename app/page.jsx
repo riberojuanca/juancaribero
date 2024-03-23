@@ -42,7 +42,7 @@ function page() {
                 <h2 className="title-section">Hi 👋🏼</h2>
                 <div className="body-section">
                   <p>
-                    I am Juanca Ribero a frontend developer from Salto, Uruguay
+                    I am Juan Ribero a frontend developer from Salto, Uruguay
                     🇺🇾.
                   </p>
                   <p>
