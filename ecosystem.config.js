@@ -2,7 +2,6 @@ module.exports = {
   apps: [
     {
       script: "_app.js",
-      watch: "false",
     },
   ],
 
