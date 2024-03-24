@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       // Primera aplicación
-      script: "./app/page.jsx", // Ruta del script principal de la primera aplicación
-      watch: "./app", // Observar cambios en el directorio actual
+      script: "/page.jsx", // Ruta del script principal de la primera aplicación
+      watch: "/app", // Observar cambios en el directorio actual
     },
   ],
 
