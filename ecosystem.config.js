@@ -11,7 +11,7 @@ module.exports = {
     production: {
       user: "root", // Usuario para la conexión SSH
       host: "luzbelito.com", // Host del servidor
-      ref: "origin/master", // Referencia de la rama del repositorio
+      ref: "origin/main", // Referencia de la rama del repositorio
       repo: "git@github.com:riberojuanca/luzbelito.git", // URL del repositorio
       path: "/var/www/nextjs/luzbelito", // Ruta en el servidor donde se desplegará la aplicación
       "pre-deploy-local": "npm run build", // Comando a ejecutar localmente antes de implementar
