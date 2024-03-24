@@ -19,8 +19,9 @@ function ProjectCard() {
       <div className={styles.texts}>
         <h3>QuitaParásitos.net</h3>
         <p>
-          Created with Next JS and deployed on VPS. It has its own blog created
-          using MDX and an internal search engine in particular sections.
+          JUANCA RIBERO Created with Next JS and deployed on VPS. It has its own
+          blog created using MDX and an internal search engine in particular
+          sections.
         </p>
         <div className={styles.skills}>
           <FaHtml5 />

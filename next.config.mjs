@@ -1,4 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import process from "node:process";
 
-export default nextConfig;
+const nextConfig = {
+  env: {
+    NEXT_PUBLIC_ENV: process.env.NEXT_PUBLIC_ENV,
+    NODE_ENV: process.env.NODE_ENV,
+  },
+};
