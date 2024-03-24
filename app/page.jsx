@@ -18,16 +18,20 @@ function page() {
             <h1 className="title">🕯️Luzbelito</h1>
           </Link>
           <div className="icons">
-            <a href="">
+            <a href="wa.me/59891848690">
               <BiMessageSquareDetail />
             </a>
-            <a href="">
+            <a
+              href="https://github.com/riberojuanca"
+              target="_blank"
+              rel="noopener"
+            >
               <BiLogoGithub />
             </a>
-            <a href="">
+            <a href="mailto:riberojuanca@gmail.com">
               <MdOutlineAlternateEmail />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/juan-r-0bb8a0265/">
               <BiLogoLinkedinSquare />
             </a>
             <a href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGY">
