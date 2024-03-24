@@ -1,5 +1,6 @@
 import { Inter, Inconsolata } from "next/font/google";
 import "./globals.css";
+import Menu from "@/components/Menu";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,7 +23,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inconsolata.className}>{children}</body>
+      <body className={inconsolata.className}>
+        <main>
+          <header>
+            <Menu />
+          </header>
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
