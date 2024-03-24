@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      script: "page.jsx",
-      watch: "./app",
+      script: "_app.js",
+      watch: ".",
     },
   ],
 
