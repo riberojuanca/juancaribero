@@ -13,9 +13,9 @@ module.exports = {
       ref: "origin/main",
       repo: "git@github.com:riberojuanca/luzbelito.git",
       path: "/var/www/nextjs/luzbelito",
-      "pre-deploy-local": "npm run build",
+      "pre-deploy-local": "",
       "post-deploy":
-        "npm install && pm2 reload luzbelito.com ecosystem.config.js --env production",
+        "npm install && npm run build pm2 reload luzbelito.com ecosystem.config.js --env production",
       "pre-setup": "",
     },
   },
