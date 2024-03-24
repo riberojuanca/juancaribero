@@ -1,21 +1,40 @@
 module.exports = {
   apps: [
     {
-      script: "_app.js",
+      name: "luzbelito.com",
+      script: "./page.js",
+      instances: 2,
+      max_memory_restart: "300M",
+
+      // Logging
+      out_file: "./out.log",
+      error_file: "./error.log",
+      merge_logs: true,
+      log_date_format: "DD-MM HH:mm:ss Z",
+      log_type: "json",
+
+      // Env Specific Config
+      env_production: {
+        NODE_ENV: "production",
+        PORT: 3000,
+        exec_mode: "cluster_mode",
+      },
+      env_development: {
+        NODE_ENV: "development",
+        PORT: 3000,
+        watch: true,
+        watch_delay: 3000,
+        ignore_watch: [
+          "./node_modules",
+          "./app/views",
+          "./public",
+          "./.DS_Store",
+          "./package.json",
+          "./yarn.lock",
+          "./samples",
+          "./src",
+        ],
+      },
     },
   ],
-
-  deploy: {
-    production: {
-      user: "root",
-      host: "luzbelito.com",
-      ref: "origin/main",
-      repo: "git@github.com:riberojuanca/luzbelito.git",
-      path: "/var/www/nextjs/luzbelito",
-      "pre-deploy-local": "",
-      "post-deploy":
-        "npm install && npm run build pm2 reload luzbelito.com ecosystem.config.js --env production",
-      "pre-setup": "",
-    },
-  },
 };
