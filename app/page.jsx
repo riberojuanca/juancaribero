@@ -94,7 +94,7 @@ function page() {
           </div>
         </article>
         <footer className="footer">
-          <p>Contacto</p>
+          <p>Háblame</p>
         </footer>
       </main>
     </>
