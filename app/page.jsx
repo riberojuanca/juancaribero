@@ -59,7 +59,7 @@ function page() {
       </article>
       <footer className="footer">
         <Link href={"/contact"}>
-          <p>Pide presupuesto</p>
+          <p>Pedir presupuesto a Juanca sin cargo</p>
         </Link>
       </footer>
     </>
