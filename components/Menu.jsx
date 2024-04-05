@@ -4,12 +4,19 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
 import { PiPaypalLogoLight } from "react-icons/pi";
 import Link from "next/link";
+import Image from "next/image";
 
 function Menu() {
   return (
     <>
-      <Link href={"/"}>
-        <h1 className="title">🕯️Luzbelito</h1>
+      <Link className="logoTitle" href={"/"}>
+        <Image
+          src="/icon.png"
+          width={24}
+          height={24}
+          alt="Vela, logo/icono de Luzbelito.com"
+        ></Image>
+        <h1 className="title">Luzbelito</h1>
       </Link>
       <div className="icons">
         <a href="wa.me/59891848690">

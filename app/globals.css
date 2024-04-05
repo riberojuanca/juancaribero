@@ -39,7 +39,7 @@ body {
 }
 
 a:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 
 main {
@@ -135,6 +135,9 @@ article .container {
 a {
   color: inherit;
   text-decoration: none;
+}
+.logoTitle {
+  display: flex;
 }
 
 .title {
