@@ -39,7 +39,7 @@ function homePageSpanish() {
                   </div>
                 </div>
                 <p>
-                  Actualmente, mientra los estudio, uso NextJS, TypeScript y
+                  Actualmente, mientras los estudio, uso NextJS, TypeScript y
                   TailwindCSS.
                 </p>
               </div>
@@ -63,6 +63,11 @@ function homePageSpanish() {
         <Link href={""}>
           <p>2024</p>
         </Link>
+        <div className="icons">
+          <Link className="flag" href="/en">
+            🇺🇸
+          </Link>
+        </div>
       </footer>
     </>
   );

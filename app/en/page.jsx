@@ -62,6 +62,11 @@ function homePageEnglish() {
         <Link href={""}>
           <p>2024</p>
         </Link>
+        <div className="icons">
+          <Link className="flag" href="/">
+            🇪🇸
+          </Link>
+        </div>
       </footer>
     </>
   );

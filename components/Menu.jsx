@@ -32,12 +32,6 @@ function Menu() {
         <h1 className={`title`}>Luzbelito</h1>
       </Link>
       <div className="icons">
-        <Link className="flag" href="/">
-          🇪🇸
-        </Link>
-        <Link className="flag" href="/en">
-          🇺🇸
-        </Link>
         <Link href="wa.me/59891848690" target="_blank">
           <AiOutlineWhatsApp />
         </Link>

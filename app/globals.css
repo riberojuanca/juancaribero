@@ -168,6 +168,7 @@ a {
   border-top: 1px solid hsla(0, 0%, 45%, 0.2);
   margin-top: 6rem;
   padding: 1rem;
+  padding-inline: 1.5rem;
 }
 
 .donationsBG {
