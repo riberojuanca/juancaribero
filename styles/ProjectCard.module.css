@@ -1,3 +1,8 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 .cardContainer {
   border-radius: 4px;
   background: var(--fourth-color);
