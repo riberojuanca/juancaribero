@@ -31,3 +31,11 @@
 .skills svg:hover {
   color: white;
 }
+
+@media screen and (min-width: 1080px) {
+  .sectionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
