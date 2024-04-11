@@ -1,43 +1,45 @@
 import Link from "next/link";
 import ProjectCard from "@/components/ProjectCard";
+import SpainProjectCard from "@/components/SpainProjectCard";
 
-function page() {
+function homePageSpanish() {
   return (
     <>
       <article>
         <div className="container">
           <div className="sub-container">
             <section className="sub-container-section">
-              <h2 className="title-section">Hi 👋🏼</h2>
+              <h2 className="title-section">Hola 👋🏼</h2>
               <div className="body-section">
                 <p>
-                  I am Juan Ribero a frontend developer from Salto, Uruguay 🇺🇾.
+                  Soy Juan Ribero, desarrollador web frontend de Salto, Uruguay
+                  🇺🇾.
                 </p>
                 <p>
-                  I started this journey at the beginning of the year 2023.
+                  Comencé este viaje a principios del año 2023.
                   <br />
-                  Since then I have focused on creating web apps without any
-                  type of discrimination.
+                  Desde entonces, me he enfocado en la creación de aplicaciones
+                  web sin ningún tipo de discriminación.
                 </p>
                 <div className="skills">
                   <div className="skill">
                     <p>Html & Css</p>
                     <p>+2</p>
-                    <p>Years of experience</p>
+                    <p>Años de experiencia</p>
                   </div>
                   <div className="skill">
                     <p>JavaScript</p>
                     <p>+1</p>
-                    <p>Year of experience</p>
+                    <p>Años de experiencia</p>
                   </div>
                   <div className="skill">
                     <p>React</p>
                     <p>+1</p>
-                    <p>Year of experience</p>
+                    <p>Años de experiencia</p>
                   </div>
                 </div>
                 <p>
-                  Currently, while studying them, I use NextJS, TypeScript and
+                  Actualmente, mientra los estudio, uso NextJS, TypeScript y
                   TailwindCSS.
                 </p>
               </div>
@@ -45,25 +47,25 @@ function page() {
           </div>
           <div className="sub-container">
             <section className="sub-container-section">
-              <h2 className="title-section">Projects</h2>
+              <h2 className="title-section">Proyectos</h2>
               <div className="body-section">
                 <p>
-                  Thanks to the trust of some people, I am still active as a
-                  freelancer.
+                  Gracias a la confianza de ciertas personas, me mantengo activo
+                  como freelancer.
                 </p>
-                <ProjectCard />
+                <SpainProjectCard />
               </div>
             </section>
           </div>
         </div>
       </article>
       <footer className="footer">
-        <Link href={"/contact"}>
-          <p>Send me a message</p>
+        <Link href={""}>
+          <p>2024</p>
         </Link>
       </footer>
     </>
   );
 }
 
-export default page;
+export default homePageSpanish;
