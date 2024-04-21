@@ -22,33 +22,22 @@ export const atkinson = Atkinson_Hyperlegible({
 function Menu() {
   return (
     <>
-      <Link className="logoTitle" href={"/"} target="_blank">
+      {/* <Link className="logoTitle" href={"/"} target="_blank">
         <Image
           src="/icon.png"
           width={24}
           height={24}
           alt="Vela, logo/icono de Luzbelito.com"
         ></Image>
-        <h1 className={`title`}>Luzbelito</h1>
-      </Link>
+      </Link> */}
       <div className="icons">
         <Link href="wa.me/59891848690" target="_blank">
           <AiOutlineWhatsApp />
+          +598 9184 8690
         </Link>
         <Link href="mailto:riberojuanca@gmail.com" target="_blank">
           <IoMailOutline />
-        </Link>
-        <Link
-          href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGY"
-          target="_blank"
-        >
-          <PiPaypalLogoLight />
-        </Link>
-        <Link
-          href="https://www.linkedin.com/in/juan-r-0bb8a0265/"
-          target="_blank"
-        >
-          <PiLinkedinLogo />
+          riberojuanca@gmail.com
         </Link>
         <Link
           href="https://github.com/riberojuanca"
@@ -56,7 +45,21 @@ function Menu() {
           rel="noopener"
         >
           <VscGithubAlt />
+          riberojuanca
         </Link>
+        <Link
+          href="https://www.linkedin.com/in/juan-r-0bb8a0265/"
+          target="_blank"
+        >
+          <PiLinkedinLogo />
+          in/juan-r-0bb8a0265
+        </Link>
+        {/* <Link
+          href="https://www.paypal.com/donate/?hosted_button_id=7797WAYFESTGY"
+          target="_blank"
+        >
+          <PiPaypalLogoLight />
+        </Link> */}
       </div>
     </>
   );

@@ -19,16 +19,14 @@ function SpainProjectCard() {
   return (
     <>
       <section className={styles.sectionContainer}>
+        <hr />
         <article className={styles.cardContainer}>
           <div className={styles.texts}>
             <Link href={"https://quita-parasitos.vercel.app"} target="_blank">
-              <h3>QuitaParásitos</h3>
-              <p>
-                Creado con Next.js y desplegado en un VPS. Tiene su propio blog
-                creado utilizando MDX y un motor de búsqueda interno en
-                secciones específicas.
-              </p>
+              <h3>Proyecto Full Stack en Quita Parásitos</h3>
             </Link>
+            <p>Enero de 2024 - Presente [Cliente de Valencia, España]</p>
+            <br />
             <div className={styles.skills}>
               <FaHtml5 title="Html" />
               <FaCss3Alt title="CSS" />
@@ -40,18 +38,59 @@ function SpainProjectCard() {
               <SiPm2 title="Pm2" />
               <DiNginx title="Nginx" />
             </div>
+            <ul className="ulProject">
+              <h4>RESPONSABILIDADES</h4>
+              <li>Creación de proyecto con NextJS desde cero.</li>
+              <li>
+                Creación de funcionalidades (búsqueda de posts, menú
+                desplegable) usando hooks de React
+              </li>
+              <li>
+                Creación de blog y sus respectivas publicaciones usando MDX
+              </li>
+              <li>
+                Diseño gráfico de imágenes para OpenGraph y su respectiva
+                configuración, utilizando también metadata generada
+                dinámicamente para cada publicación del blog.
+              </li>
+              <li>Correción ortográfica</li>
+              <li>
+                Despliegue en VPS de Hostinger, donde se hizo la instalación de
+                NodeJS y se usó Nginx y PM2 para su configuración y
+                mantenimiento
+              </li>
+            </ul>
+            <ul className="ulProject">
+              <h4>LOGROS CLAVE</h4>
+              <li>
+                El cliente se benefició de un diseño único y sin limitaciones en
+                su estilo y funcionalidades
+              </li>
+              <li>
+                Encontró un lugar donde evitar las restricciones y censuras de
+                algunas redes sociales
+              </li>
+              <li>
+                El uso de un VPS en Hostinger significó un decremento del precio
+                a pagar en un 50% en comparación al que ofrece Vercel, sin tener
+                que prescindir de su uso y beneficiándose de ello.
+              </li>
+              <li>Posibilidad de escalabilidad</li>
+            </ul>
           </div>
         </article>
+        <hr />
+
         <article className={styles.cardContainer}>
           <div className={styles.texts}>
-            <Link href={"https://saltorun.vercel.app"} target="_blank">
-              <h3>Salto Run</h3>
-              <p>
-                Creado con Next.js y desplegado en Vercel. En esta aplicación
-                web, las tables de posiciones se actualizan obteniendo datos de
-                una hoja de cálculo de Google.
-              </p>
+            <Link href={"https://quita-parasitos.vercel.app"} target="_blank">
+              <h3>Proyecto Full Stack en Salto RUN</h3>
             </Link>
+            <p>
+              Marzo - Abril de 2024 [Proyecto presentado para el Campeonato
+              Salto RUN]
+            </p>
+            <br />
             <div className={styles.skills}>
               <FaHtml5 title="Html" />
               <BiLogoTailwindCss title="TailwindCSS" />
@@ -59,8 +98,28 @@ function SpainProjectCard() {
               <IoLogoReact title="React" />
               <TbBrandNextjs title="NextJS" />
             </div>
+            <ul className="ulProject">
+              <h4>RESPONSABILIDADES</h4>
+              <li>Creación de proyecto con NextJS desde cero</li>
+              <li>Creación de repositorio en Github y conexión a Vercel</li>
+              <li>
+                Extracción de datos de Google Sheets utilizando la Fetch API
+                para generar el contenido de las tablas de posiciones del
+                campeonato.
+              </li>
+            </ul>
+            <ul className="ulProject">
+              <h4>LOGROS CLAVE</h4>
+              <li>
+                Mejoría de más de 30% en el rendimiento en comparativa con web
+                anterior
+              </li>
+              <li>Diseño más moderno y accesible al público</li>
+              <li>Posibilidad de visualizar tablas de posiciones</li>
+            </ul>
           </div>
         </article>
+        <hr />
       </section>
     </>
   );

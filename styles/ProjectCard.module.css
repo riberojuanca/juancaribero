@@ -1,13 +1,12 @@
 .sectionContainer {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 .cardContainer {
   border-radius: 4px;
   background: var(--fourth-color);
   width: 100%;
-  padding: 0.6rem;
   margin-inline: auto auto;
   gap: 0.6rem;
 }
@@ -17,30 +16,24 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  gap: 0.6rem;
 }
 
 .skills {
-  background: var(--third-color);
-  color: rgba(255, 255, 255, 0.792);
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   gap: 0.4rem;
   border-radius: 3px;
   position: relative;
   padding: 0.1rem;
 }
 
-.skills svg:hover {
-  color: white;
-}
-
 @media screen and (min-width: 1080px) {
-  .sectionContainer {
+  /* .sectionContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
-  }
+  } */
 }

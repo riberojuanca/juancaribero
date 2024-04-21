@@ -3,12 +3,12 @@
     0px 2px 2px 0px rgba(0, 0, 0, 0.045), 0px 1px 5px 0px rgba(0, 0, 0, 0.051);
 
   --principal-color: #0000004f;
-  --principal-bg: #000000;
+  --principal-bg: white;
   --second-color: rgba(255, 38, 0, 0.796);
   --third-color: rgba(0, 59, 59, 0.796);
   --fourth-color: rgba(255, 255, 255, 0.126);
 
-  --title-color: rgba(0, 193, 193, 0.587);
+  --title-color: #009f9f;
 }
 
 *,
@@ -23,23 +23,25 @@ html,
 body {
   display: block;
   max-width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   font-size: 16px;
 }
 
 body {
   background: var(--principal-bg);
-  color: white;
   margin: 0;
   line-height: inherit;
+  font-family: "Courier New", Courier, monospace;
+  padding: 2rem;
 }
 
 ::selection {
-  background: var(--third-color);
+  background: var(--title-color);
+  color: white;
 }
 
 a:hover {
-  transform: scale(1.01);
+  filter: brightness(120%);
 }
 
 main {
@@ -48,33 +50,32 @@ main {
 }
 
 header {
-  background: var(--principal-color);
   backdrop-filter: blur(10px);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 4rem;
-  margin-bottom: 6rem;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  /* top: 0; */
   z-index: 50;
   font-size: 1.5rem;
   border-radius: 3px;
+  min-width: 360px;
 }
 h3 {
   margin-block: 0 0.4rem;
 }
 
 .icons {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  height: 1.5rem;
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 0.2rem;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 article {
-  padding-inline: 1rem;
   position: relative;
 }
 
@@ -96,9 +97,40 @@ article .container {
 }
 
 .title-section {
-  font-size: 1.4rem;
-  line-height: 1.75rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
   color: var(--title-color);
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: rgb(67, 67, 67);
+  margin-block: 1.5rem 0.5rem;
+}
+
+li {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 .body-section {
@@ -109,13 +141,13 @@ article .container {
 
 .body-section p {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   line-height: 1.25rem;
 }
 
 .body-section .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 1.2rem;
 }
 
@@ -125,6 +157,25 @@ article .container {
   border-radius: 4px;
 }
 
+.skills > * svg {
+  font-size: 1.8rem;
+}
+
+.ulSkills {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ulSkills li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.ulSkills li svg {
+  font-size: 1.2rem;
+}
 /* .skill p {
   font-size: 1rem;
 } */
@@ -135,23 +186,26 @@ article .container {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .logoTitle {
   display: flex;
   align-items: center;
+  justify-content: center;
+  filter: grayscale(1);
 }
 
-.icons a:nth-last-child(1) {
-  padding: 1px 0 0 1px;
-  font-size: 1.4rem;
+.icons a {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--title-color);
+}
+
+.icons svg {
+  font-size: 1.1rem;
 }
 
 .title {
-  font-weight: 400;
+  font-weight: 800;
   font-size: 1.2rem;
   display: none;
 }
@@ -175,7 +229,48 @@ a {
   background-color: red;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 900px) {
+  header {
+    backdrop-filter: blur(10px);
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 4rem;
+    margin-bottom: 4rem;
+    /* top: 0; */
+    z-index: 50;
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 1.5rem;
+  }
+
+  .icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--title-color);
+  }
+
+  .icons svg {
+    font-size: 1.3rem;
+  }
+
+  .ulSkills {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+  }
   .flag {
     font-size: 1.4rem;
   }
