@@ -83,7 +83,7 @@ function SpainProjectCard() {
 
         <article className={styles.cardContainer}>
           <div className={styles.texts}>
-            <Link href={"https://quita-parasitos.vercel.app"} target="_blank">
+            <Link href={"https://saltorun.vercel.app"} target="_blank">
               <h3>Proyecto Full Stack en Salto RUN</h3>
             </Link>
             <p>

@@ -80,7 +80,7 @@ function ProjectCard() {
 
         <article className={styles.cardContainer}>
           <div className={styles.texts}>
-            <Link href={"https://quita-parasitos.vercel.app"} target="_blank">
+            <Link href={"https://saltorun.vercel.app"} target="_blank">
               <h3>Full Stack Project at Salto RUN</h3>
             </Link>
             <p>
