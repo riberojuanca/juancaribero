@@ -1,4 +1,4 @@
-import { Inter, Inconsolata } from "next/font/google";
+import { Inter, Inconsolata, Fira_Code } from "next/font/google";
 import "./globals.css";
 import Menu from "@/components/Menu";
 
@@ -12,6 +12,11 @@ const inconsolata = Inconsolata({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
+const firaCode = Fira_Code({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
 export const metadata = {
   title: "Luzbelito",
   description: "Uruguayan developers",
@@ -23,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={firaCode.className}>
         <main>
           <header>
             <Menu />

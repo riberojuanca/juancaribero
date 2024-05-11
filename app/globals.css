@@ -31,7 +31,6 @@ body {
   background: var(--principal-bg);
   margin: 0;
   line-height: inherit;
-  font-family: "Courier New", Courier, monospace;
   padding: 2rem;
 }
 
