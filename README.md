@@ -1,5 +1,4 @@
-# This is Luzbelito
+# This is my CV
 
-## My personal project
+## My personal CV
 
-[Luzbelito](https://luzbelito.vercel.app)
